@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:background="#f8e0a9">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_margin="50dp"
+        android:text="Amount to be paid is : "
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="243dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="198dp"
+        android:text=" Amount left  :"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="236dp"
+        android:layout_height="49dp"
+
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"
+        android:background="#b0dced"
+        android:text="1 Rs" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignTop="@+id/button1"
+        android:layout_gravity="center"
+        android:layout_marginStart="96dp"
+        android:background="#f69ea1e0"
+        android:text="2 Rs" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button1"
+        android:layout_gravity="center"
+        android:layout_marginEnd="95dp"
+        android:background="#f66c6e9d"
+        android:text="5 Rs" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button1"
+        android:background="#bc76df"
+        android:text="10 Rs" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:background="#e50b2c"
+        android:text="Reset"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+
+        android:text="SUBMIT"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignStart="@+id/button2"
+        android:layout_gravity="center"
+        android:layout_marginTop="88dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>
